@@ -1,3 +1,2 @@
 
-    finally:
-        csv_file.close()
+        layout.addWidget(self.status)

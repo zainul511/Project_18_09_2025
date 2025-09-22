@@ -14,8 +14,8 @@ G_TO_MS2 = 9.80665            # Gravity constant
 EMA_ALPHA = 0.1              # Smoothing factor
 MAX_TIME_WINDOW = 600          # Seconds for rolling buffer
 IGNORE_INITIAL = 5            # Seconds to ignore from device start
-CLIP_MIN = -2                 # Min for plotting
-CLIP_MAX = 2                # Max for plotting
+CLIP_MIN = -5                 # Min for plotting
+CLIP_MAX = 5                  # Max for plotting
 
 # === Globals ===
 ema_prev = None
